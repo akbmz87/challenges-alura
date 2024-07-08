@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --color-primario: #F3F5FC;
+    --color-secundario: #0A3871;
+    --color-terciario: #495057;
+    --color-cuaternario: #ffffff;
+
+    --fuente-inter: 'Inter', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    font-family: var(--fuente-inter);
+}
+
+
+.cuadro{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+
+.cuadro__izquierdo {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    
+}
+
+
+.cuadro__derecho{
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: auto;
+    background-color: var(--color-cuaternario);
+    border-radius: 16px;  
+}
+
+.ingresar__texto{
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--fuente-inter);
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    resize: none;
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    padding: auto;
+     
+
+}
+
+::placeholder {
+    color: var(--color-secundario);
+}
+
+.comentario__informativo{
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    gap: 10px;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+.boton__encriptado{
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--fuente-inter);
+    padding: 10px 10px;
+    width: 328px;
+    height: auto;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    cursor: pointer;
+    
+
+
+}
+
+.boton__desencriptado{
+    display: flex;
+    justify-content: center;
+    border: 2px  solid var(--color-secundario);
+    width: 50%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--fuente-inter);
+    padding: 10px 10px;
+    width: 328px;
+    height: auto;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    gap: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.salida__texto{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--fuente-inter);
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    resize: none;
+    color: var(--color-terciario);
+    margin: 10px;
+    text-align: center;
+    background-color: var(--color-cuaternario);
+}
+
+.boton__copiar{
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--fuente-inter);
+    padding: 10px 10px;
+    width: 328px;
+    height: auto;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.boton__desencriptado:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    text-align: center;
+
+}
+
+.boton__encriptado:hover{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer{
+    color:var(--color-primario);
+    background-color: var(--color-secundario);
+    padding: 15px;
+    text-align: center;
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 40px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img class="logo" src="./assets/Logo.png">  
+    <main class="cuadro">  
+                
+        <div class="cuadro__izquierdo">
+            <textarea class="ingresar__texto" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="comentario__informativo">Solo letras minúsculas y sin acentos</div>
+            <div class="botones">
+                <button class="boton__encriptado">Encriptar</button>
+                <button class="boton__desencriptado">Desencriptar</button>
+            </div>
+        </div>
+        <div class="cuadro__derecho">
+            <img src="./assets/Muñeco.png">
+            <textarea class="salida__texto" placeholder= "Ningún mensaje fue encontrado &#10;Ingresa el texto que desees encriptar o desencriptar." readonly></textarea>
+            <button class="boton__copiar">Copiar</button>
+        </div>
+    </main>
+    <footer class="footer">Desarrollado por Hugo Gómez para el challenge de alura</footer>
+    <script src="apps.js"></script>
+</body>
+</html>
